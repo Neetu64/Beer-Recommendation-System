@@ -4,14 +4,14 @@ Enhanced user engagement and satisfaction through personalized craft beer recomm
 
 Steps:
 
-Designed and implemented a Python-based crowdsourced recommender system for craft beers, extracting insights from beeradvocate.com reviews.
+• Developed a crowdsourced craft beer recommender system using scraped reviews (~2,000) to enhance user recommendations.
 
-Leveraged web scraping for data extraction, conducted word frequency analysis, and applied cosine similarity for evaluation scoring.
+• Performed similarity analysis with bag-of-words and word vectors, identifying the most similar beers via cosine similarity.
 
-Integrated sentiment analysis (VADER) and explored word vectors for nuanced attribute analysis.
+• Integrated VADER sentiment analysis to refine recommendations based on user sentiment.
 
-Investigated the impact of ignoring similarity and sentiment scores on recommendations.
+• Calculated lifts between key beer attributes, identifying the most similar beer.
 
-Calculated lifts between key beer attributes, identifying the most similar beer.
+• Designed a hybrid scoring system, combining similarity metrics and sentiment scores for improved accuracy.
 
-Technologies used: Python, scrapy, cosine similarity, sentiment analysis (VADER), and word vectors.
+Technologies used: Python, scrapy, cosine similarity, sentiment analysis (VADER), scikit-learn, matplotlib and word vectors.
